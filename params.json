@@ -1,6 +1,6 @@
 {
   "name": "GoatEase",
   "tagline": "A command line interface for Monetas's GoatD client written in Python",
-  "body": "### About GoatD\r\nGoatD is a client daemon for creating digital contracts on the Monetas platform via JSON requests. \r\n\r\n### About GoatEase\r\nThis is a simple script for sending basic commands to *GoatD*. At the moment you can create transfer contracts for sending/receiving cryptocurrency (XBT/ETH/etc) or digital currency (CHF/EUR/etc). \r\n\r\n",
+  "body": "### About GoatD\r\n*GoatD* is a client daemon for creating digital contracts on the Monetas platform via JSON requests. \r\n\r\n### About GoatEase\r\nThis is a simple interface for sending basic commands to *GoatD*. At the moment you can create transfer contracts for sending/receiving cryptocurrency (XBT/ETH/etc) or digital currency (CHF/EUR/etc). \r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
