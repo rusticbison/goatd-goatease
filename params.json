@@ -1,6 +1,6 @@
 {
-  "name": "Author Information",
-  "tagline": "Adventure in cryptofinance",
-  "body": "### Rustic Bison's homepage\r\nThis page contains my personal thoughts, notes and opinions on cryptofinance.\r\n\r\n###\r\n\r\n",
+  "name": "GoatEase",
+  "tagline": "A command line interface for Monetas's GoatD client written in Python",
+  "body": "### About GoatD\r\nGoatD is a client daemon for creating digital contracts on the Monetas platform via JSON requests. \r\n\r\n### About GoatEase\r\nThis is a simple script for testing GoatD's capabilities. \r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
