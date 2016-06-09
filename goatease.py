@@ -1,4 +1,8 @@
 #!/usr/bin/python
+#Prerequisites: 
+#pip install requests
+#pip install pyqrcode
+
 import requests
 import json
 import pyqrcode
