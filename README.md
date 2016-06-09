@@ -1,8 +1,7 @@
 # GoatEase
-A simple script that sends commands to the Monetas *GoatD* client in order to manage digital contracts.
+A simple interface to send requests to a Monetas *GoatD* client. Used to manage digital contracts.
 
 ### Steps
-- Install, setup and run *GoatD*
-- Copy goatease.py to your *GoatD* machine
+- Copy goatease.py to your *GoatD* vagrant box
 - Run ./goatease.py
 - Enjoy!
