@@ -19,7 +19,7 @@ units="units"
 transfers="transfers/"
 fees_unitID="fees?unitID="
 fees_amount="&amount="
-url=('http://127.0.0.1:2360/v1.0/')
+url=('http://127.0.0.1:2360/v3.0/')
 
 while True:
     menu=raw_input("Press 'a' to see your wallet address and generate a QR code.\nPress 'b' to see your balance.\nPress 'u' to see units available on the Notary.\nPress 's' to see the status of a pending transfer.\nPress 'n' to create a new transfer.'\nPress 'f' to see the fees for a particular unit.\nTo quit, press 'q'.\n\n")
