@@ -1,6 +1,8 @@
 # GoatEase
 A simple interface to send requests to a Monetas *GoatD* client. Used to manage digital contracts.
 
+![goatease](https://cloud.githubusercontent.com/assets/18722686/16189424/92818aae-36da-11e6-89ef-2d8c24df690b.gif)
+
 ### Steps
 This appliance uses virtual box as a vagrant provider, you can download virtual box here: https://www.virtualbox.org/wiki/Downloads 
 
