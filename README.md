@@ -6,31 +6,68 @@ A simple interface to send requests to a Monetas *GoatD* client. Used to manage 
 ### Steps
 This appliance uses virtual box as a vagrant provider, you can download virtual box here: https://www.virtualbox.org/wiki/Downloads 
 
-Download the vagrant package using the link sent to you by Monetas. 
+Download the vagrant package using the link sent to you by Monetas, or [setup your own GoatD](http://goatd.monetas.net). 
 
-- Add the vagrant box to your vagrant using following command: 
+Add the vagrant box to your vagrant using following command: 
+
+```bash
 $ vagrant box add goatd-1.0.93.box --name goatd-1.0.93
+```
 
-- Initiate vagrant system in chosen directory
+Initiate vagrant system in chosen directory
+
+```bash
 $ vagrant init
+```
 
-- Open  and edit Vagrantfile, change: config.vm.box  ="base" TO config.vm.box = "goatd-1.0.93"
+Open and edit your Vagrantfile, change: config.vm.box  ="base" TO config.vm.box = "goatd-1.0.93"
 
-- Start vagrant box
+Now start your vagrant box
+
+```bash
 $ vagrant up
+```
 
-- Login to Vagrant
+Login to Vagrant
+
+```bash
 $ vagrant ssh
+```
 
-- Login as root (
+Login as root
+
+```bash
 $ sudo su - 
+```
 
-- Create new wallet(s)
+Prepare the serpant
+
+```bash
+$ sudo yum install python-pip
+$ pip install requests
+$ pip install pyqrcode
+```
+
+Create new wallet(s)
+
+```bash
 $ newwallet
+```
 
-- To check if wallets were created use ps
-$ ps auxf  
+You'll be shown your port number, copy it. Now create your goatease.py:
 
-- Copy goatease.py to your *GoatD* vagrant box
-- Run ./goatease.py
-- Enjoy!
+```bash
+$ vim goatease.py
+```
+
+Update the variable "port" with your port number. Then :wq to save and close the file. Update permissions:
+
+```bash
+$ chmod 777 goatease.py
+```
+
+Run goatease and enjoy!
+
+```bash
+$ ./goatease.py
+```
