@@ -72,3 +72,16 @@ Run goatease and enjoy!
 $ ./goatease.py
 ```
 If you'd like to try sending a transfer, feel free to send funds to my GoatD: Hrv9T8sQajt9oGQfE9MudSkndbaPDusGXLmessNYBAbK
+
+Here's a list of the available play currencies:
+
+6pkHRpVKXWNt4wY5tNXcz6kpobgg6DFCwo5o9FfYkqic - Liter Of Goat Milk With Fees
+73DzxX5XgZxoRPuJwY5SrhFsEPsf7ubyeShs1QGfdzxJ - Slice Of Goat Cheese With Fees
+6qYPELToPoAwc71AovjPhC5r9t2f9E4ZUd5JcwY5Tnjy - “♦”
+AZQQJwE6ET4xCDKc3g72AnvoqBcTTyF1PtWzoYJD6Miq - "♥"
+EodNsm5J1mxgk8Sjq8QrhRwKdJnSN2N58XJiuhxCoJc9 - "♣"
+GQtgyCzJJWuz3NJuggdYsLDuf1BfTHmEHZ4Fm7uU8RRf - "♠"
+8r6xxNXoAFAbUHXhDJLFsicHkPQF8oitxHdRwg1gzoGh - Swiss Franc
+BSuefomsihE9YbLxci5awRGP3CwXPmPkW5vxXnGLVLJD - Yen
+HT9jb2tsYxi4zDUiGTaLWFAUpNFyiaUaBZHAJ2oCxHaB - Euro
+5grZJeP3cVg7a6ren2bQUnkWvcwQ13YT2DoLvPyG98kW - Tunisian Dinar
