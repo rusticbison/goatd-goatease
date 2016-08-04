@@ -1,5 +1,5 @@
 # GoatEase
-A simple interface to send requests to a Monetas *GoatD* client. Used to manage digital contracts.
+A simple interface to send requests to a Monetas *GoatD* client. Used to manage digital contracts on the Monetas demo platform, which only uses play currencies/assets!
 
 ![goatease](https://cloud.githubusercontent.com/assets/18722686/16189424/92818aae-36da-11e6-89ef-2d8c24df690b.gif)
 
@@ -71,3 +71,4 @@ Run goatease and enjoy!
 ```bash
 $ ./goatease.py
 ```
+If you'd like to try sending a transfer, feel free to send funds to my GoatD: Hrv9T8sQajt9oGQfE9MudSkndbaPDusGXLmessNYBAbK
